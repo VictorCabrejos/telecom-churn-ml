@@ -3,9 +3,14 @@ import pandas as pd
 import numpy as np
 import joblib
 from preprocessing_tools import preprocess_input
+import os
 
 # Carga el modelo entrenado
-model = joblib.load('random_forest_model.pkl')
+
+current_dir = os.path.dirname(__file__)
+model_path = os.path.join(current_dir, '..', 'models', 'random_forest_model.pkl')
+model = joblib.load(model_path)
+
 
 
 def predict_churn(data):
