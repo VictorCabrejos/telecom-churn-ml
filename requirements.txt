@@ -6,3 +6,4 @@ pandas
 requests
 streamlit
 scikit-learn
+joblib

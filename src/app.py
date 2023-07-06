@@ -7,9 +7,9 @@ import os
 
 # Carga el modelo entrenado
 
-current_dir = os.path.dirname(__file__)
-model_path = os.path.join(current_dir, '..', 'models', 'random_forest_model.pkl')
-model = joblib.load(model_path)
+# current_dir = os.path.dirname(__file__)
+# model_path = os.path.join(current_dir, '..', 'models', 'random_forest_model.pkl')
+model = joblib.load("random_forest_model.pkl")
 
 
 
