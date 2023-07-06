@@ -1,0 +1,8 @@
+numpy
+jupyter-client
+jupyter-core
+matplotlib
+pandas
+requests
+streamlit
+scikit-learn
